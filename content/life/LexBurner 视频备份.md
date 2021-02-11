@@ -3,7 +3,7 @@ title: "LexBurner 视频备份"
 gitinfo: true
 share: true
 comments: true
-slug: "fcode"
+slug: "B_LexBurner_1"
 images: ["https://cdn.jsdelivr.net/gh/Borber/PublicPic1/%E5%8D%9A%E5%AE%A2%E5%9B%AD/wolai/wolai.png"] 
 description: "罪不至此 拳师司马"
 tags: ["视频"]
