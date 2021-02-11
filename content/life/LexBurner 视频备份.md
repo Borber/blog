@@ -10,7 +10,7 @@ tags: ["视频"]
 date: 2021-02-12T02:52:04+08:00
 ---
 
-从 [@frufy](https://m.cmx.im/@frufy) 的od中备份了一份 (十分感谢) [LexBurner](https://space.bilibili.com/777536/) 的全部视频之后 好奇之下 打开了他的第一期视频, [2014-07-30【完结有槽点】简评罪恶王冠](https://www.bilibili.com/video/BV1zx411N7bQ)
+从 [@frufy](https://m.cmx.im/@frufy) 的od中备份了一份 (十分感谢) [LexBurner](https://space.bilibili.com/777536/) 的全部视频之后 好奇之下 打开了他的第一期视频, [2014-07-30【完结有槽点】简评罪恶王冠](https://www.bilibili.com/video/BV1zx411N7bQ) 
 
 他开头处说了一句话 :
 
@@ -41,3 +41,13 @@ date: 2021-02-12T02:52:04+08:00
 总之希望人们都冷静一点吧. 或者终于我想说句「大逆不道」可能代表站队的话. 
 
 `如果你想要夺走对方的棒球棍,只是因为你想拿着它来为所欲为,那我是绝不会支持你的,绝不会!`
+
+
+
+#### 备份地址:
+
+[分享链接](http://od.borber.cn/video/B%E7%AB%99/LexBurner/) 
+
+- 如果你无法访问请第二天再访问(使用CF的worker搭建限制是每天的访问量) 
+- 如果下载速度不快请自行想办法(反代或者挂梯)
+
