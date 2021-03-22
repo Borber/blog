@@ -22,7 +22,7 @@ date: 2021-03-22T23:03:04+08:00
 
 ## 准备工作:
 
-1. 安装 Oracle VM VirtualBox: 6.1.18 [官方地址](https://download.virtualbox.org/virtualbox/6.1.18/VirtualBox-6.1.18-142142-Win.exe) 网盘分流
+1. 安装 Oracle VM VirtualBox: 6.1.18 [官方地址](https://download.virtualbox.org/virtualbox/6.1.18/VirtualBox-6.1.18-142142-Win.exe) [网盘分流](https://pan.qita.link/s/vRmCm)
 
 2. 下载 ova 文件:  [下载链接](https://pan.qita.link/s/GbnhQ)
 
