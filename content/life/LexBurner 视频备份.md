@@ -4,7 +4,7 @@ gitinfo: true
 share: true
 comments: true
 slug: "B_LexBurner_1"
-images: ["https://cdn.jsdelivr.net/gh/Borber/PublicPic1/%E5%8D%9A%E5%AE%A2%E5%9B%AD/wolai/wolai.png"] 
+images: ["https://cdn.jsdelivr.net/gh/Borber/PublicPic1@master/ST/2x.jpg"] 
 description: "罪不至此 拳师司马"
 tags: ["视频"]
 date: 2021-02-12T02:52:04+08:00
