@@ -12,14 +12,6 @@ date: 2020-07-28T02:43:13+08:00
 
 
 
-#### 自己建的 **[开黑啦 交流群](https://kaihei.co/VN2lkl)** 可以来玩
-
-
-
-<iframe src="https://kaiheila.cn/widget?id=5298824279695449&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
-
-
-
 #### 友链申请:
 
 欢迎申请友情链接，只要是正规站常更新即可申请首页链接需符合以下几点要求：
