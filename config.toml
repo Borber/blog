@@ -89,6 +89,10 @@ uglyURLs = false
         endLevel = 6
         ordered = true
 
+# 压缩 HTML
+[minify.tdewolff.html]
+    keepWhitespace = false
+
 # 作者信息
 [author]
     # 名字
@@ -100,7 +104,7 @@ uglyURLs = false
     # 头像
     avatar = "/icons/apple-touch-icon.png"
     # 网站（默认值：baseURL）
-    website = "https://borber.cn/"
+    website = "https://borber.vercel.app/"
     # 推特
     twitter = "BORBER_X"
 
@@ -135,9 +139,16 @@ uglyURLs = false
     baseName = "rss"
 
 # lunr.js 的搜索索引
-# [outputFormats.SearchIndex]
-#     mediaType = "application/json"
-#     baseName = "search"
+[outputFormats.SearchIndex]
+    mediaType = "application/json"
+    baseName = "search"
+
+# Algolia 的搜索索引
+[outputFormats.Algolia]
+    mediaType = "application/json"
+    baseName = "algolia"
+    isPlainText = true
+    notAlternative = true
 
 # Hugo 的输出控制
 [outputs]
@@ -229,9 +240,9 @@ uglyURLs = false
     [[menu.main]]
         weight = 8
         identifier = "theme-switcher"
-    [[menu.main]]
-        weight = 9
-        identifier = "lang-switcher"
+    # [[menu.main]]
+    #     weight = 9
+    #     identifier = "lang-switcher"
     # [[menu.main]]
         # weight = 9
         # identifier = "search"
@@ -248,6 +259,9 @@ uglyURLs = false
 
     # 是否开启
     enableHeader = true
+
+    # 是否自动隐藏
+    enableHeaderAutoHide = false
 
     # 是否在首页显示
     displayHeaderInHome = true
@@ -492,7 +506,7 @@ uglyURLs = false
     enableDarkMode = true
 
     # 默认模式
-    defaultTheme = "light"
+    defaultTheme = "dark"
     # 说明：light（浅色模式）或 dark（深色模式）
 
     # 是否隐藏模式切换开关
@@ -638,6 +652,23 @@ uglyURLs = false
     utterancesLabel = ""
     # 说明：https://utteranc.es/
 
+    ## Gitalk
+    enableGitalk = false
+    gitalkClientID = "your_client_id"
+    gitalkClientSecret = "your_client_secret"
+    gitalkRepo = "your_repository"
+    gitalkOwner = "your_gitalk_owner"
+    gitalkAdmin = ["your_gitalk_admin"]
+    gitalkLable = ["Gitalk"]
+    gitalkDistractionFreeMode = false
+    gitalkPerPage = 10
+    gitalkLanguage = "en"
+    gitalkPagerDirection = "last"
+    gitalkCreateIssueManually = false
+    gitalkProxy = "https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token"
+    gitalkEnableHotKey = true
+    # 说明：https://github.com/gitalk/gitalk
+
 
     ######################################
     # Google Analytics
@@ -709,12 +740,12 @@ uglyURLs = false
     # 文章元信息
 
     # 是否开启（全局设置）
-    enablePostMeta = false
+    enablePostMeta = true
     # 说明：文章的 Front Matter 中的 `meta`
     #      的优先级高于此处
 
     # 是否在首页开启
-    enablePostMetaInHome = false
+    enablePostMetaInHome = true
     # 说明：仅对「文章摘要」和「普通页面」
     #      首页布局有效
 
@@ -858,7 +889,7 @@ uglyURLs = false
     #      `<video src="`
 
     # 是否开启
-    enableVideoHost = true
+    enableVideoHost = false
 
     # 视频外链地址
     videoHostURL = "https://cdn.jsdelivr.net/gh/Borber/"
@@ -1012,7 +1043,7 @@ uglyURLs = false
     # 文章版权
 
     # 是否开启
-    enablePostCopyright = false
+    enablePostCopyright = true
 
     # 是否显示（全局设置）
     displayPostCopyright = true
@@ -1024,7 +1055,7 @@ uglyURLs = false
     # 文章更新徽章
 
     # 是否开启
-    enablePostUpdatedBadge = false
+    enablePostUpdatedBadge = true
 
     # 是否显示（全局设置）
     displayUpdatedBadge = true
@@ -1085,7 +1116,7 @@ uglyURLs = false
     enablePostShare = true
 
     # 是否显示（全局设置）
-    displayPostShare = false
+    displayPostShare = true
     # 说明：文章的 Front Matter 中的 `share`
     #      的优先级高于此处
 
@@ -1107,10 +1138,10 @@ uglyURLs = false
     # 相关文章
 
     # 是否开启
-    enableRelatedPosts = false
+    enableRelatedPosts = true
 
     # 是否显示（全局设置）
-    displayRelatedPosts = false
+    displayRelatedPosts = true
     # 说明：文章的 Front Matter 中的 `related`
     #      的优先级高于此处
 
@@ -1125,7 +1156,7 @@ uglyURLs = false
     # 文章的标签
 
     # 是否开启
-    enablePostTags = false
+    enablePostTags = true
 
     # 标签的图标
     postTagsIcon = "tag"
@@ -1263,6 +1294,15 @@ uglyURLs = false
     enableFingerprint = true
     # 说明：仅对 MemE 生成的 CSS 和 JS 有效
 
+    # 是否开启子资源完整性验证
+    enableSRI = false
+    # 说明：开启子资源完整性验证后，该策略将使
+    #      MemE 的 CSS 和 JS 在像谷歌翻译这样
+    #      的第三方网站上被禁止。为了避免开启后
+    #      的这个问题，你的服务器必须向 CSS 和
+    #      JS 的请求中加上以下 Header：
+    #
+    #      Access-Control-Allow-Origin: *
 
     ######################################
     # HTTPS 强制跳转
