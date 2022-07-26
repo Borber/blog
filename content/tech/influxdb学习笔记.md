@@ -11,19 +11,23 @@ date: 2022-07-26T17:53:04+08:00
 
 
 
-# 安装
-## 安装influxdb
+## 安装
+
+### 安装influxdb
+
 下载路径: [Github](https://github.com/influxdata/influxdb/releases) [官网](https://portal.influxdata.com/downloads/) 
 
 因为我使用的是`Windows`所以下载的是最新的版本 `2.3.0` 的压缩包 --- `influxdb2-2.3.0-windows-amd64.zip`
 
 下载后解压并在命令行运行
-## 安装Telegraf
+### 安装Telegraf
+
 下载地址: [github](https://github.com/influxdata/telegraf/releases) 官网
 
 同样下载最新版本,并解压
 
-# 启动
+## 启动
+
 命令行启动 influxdb 
 ```shell
 .\influxdb.exe
@@ -31,8 +35,10 @@ date: 2022-07-26T17:53:04+08:00
 
 访问 `http://localhost:8086/` 进行注册并配置
 
-# 配置
-## 添加telegraf-Rides数据源
+## 配置
+
+### 添加telegraf-Rides数据源
+
 1. 选择添加数据 
 2. 选择telegraf 
 3. 点击 `CREATE CONFIGURATION`
@@ -96,7 +102,7 @@ date: 2022-07-26T17:53:04+08:00
 
 ```
 
-# 开始采集
+## 开始采集
 1. 启动 `redis`
 2. 启动 `telegraf` 
 	1. 配置环境变量, 上节已讲
