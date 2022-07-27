@@ -49,9 +49,9 @@ date: 2022-07-26T17:53:04+08:00
 		1. `Windows` 下可以使用 `setx /M INFLUX_TOKEN "YOUR_TOKEN"`  来设置环境变量, 亦可和我下面的样例配置一样直接替换`token`信息
 	2. 启动命令 形如 `telegraf --config http://localhost:8086/api/v2/telegrafs/09ba739a6f9a3000`
 
-![telegraf-1.png](https://www.z4a.net/images/2022/07/26/telegraf-1.png)
+![telegraf-1.png](https://i.pstorage.space/i/7p1xjye5A/original_telegraf-1.png)
 
-![telegraf-2.png](https://www.z4a.net/images/2022/07/26/telegraf-2.png)
+![telegraf-2.png](https://i.pstorage.space/i/0bNK3djZY/original_telegraf-2.png)
 
 注: 点击 `telegraf` 菜单下的项目名即可查看/编辑配置, 形如 `http://localhost:8086/api/v2/telegrafs/09ba739a6f9a3000` 的地址可以下载配置, 
 
@@ -110,11 +110,11 @@ date: 2022-07-26T17:53:04+08:00
 		1. 可以使用上节的启动命令进行网络配置启动(前提是你自己在网页端修改好了配置), 但我遭遇了无法认证的错误, 所以直接使用本地配置
 		2. 可以本地创建`telegraf.conf` 文件, 将网页端的配置复制黏贴过来
 		3. 此时将添加 `redis` , `redis_cmdstat`, `redis_keyspace` 监控
-3. 打开 `influxdb` 的 WebUI 新建仪表盘![telegraf-3.png](https://www.z4a.net/images/2022/07/26/telegraf-3.png)
-4. 添加卡片![telegraf-4.png](https://www.z4a.net/images/2022/07/26/telegraf-4.png)
-5. 选择 `set`, `get`, `auth` 并提交. ![telegraf-5.png](https://www.z4a.net/images/2022/07/26/telegraf-5.png)
-6. 设置自动刷新 ![telegraf-6.png](https://www.z4a.net/images/2022/07/26/telegraf-6.png)
-7. 4-5同样的步骤添加系统信息监控即可获得如下成果 ![telegraf-7.png](https://www.z4a.net/images/2022/07/26/telegraf-7.png)
+3. 打开 `influxdb` 的 WebUI 新建仪表盘![telegraf-3.png](https://i.pstorage.space/i/VNbJ9ymDd/original_telegraf-3.png)
+4. 添加卡片![telegraf-4.png](https://i.pstorage.space/i/LlZJ2A5xL/original_telegraf-4.png)
+5. 选择 `set`, `get`, `auth` 并提交. ![telegraf-5.png](https://i.pstorage.space/i/WNbJkLXPN/original_telegraf-5.png)
+6. 设置自动刷新 ![telegraf-6.png](https://i.pstorage.space/i/ebKnPVX9X/original_telegraf-6.png)
+7. 4-5同样的步骤添加系统信息监控即可获得如下成果 ![telegraf-7.png](https://i.pstorage.space/i/5vZbN14R0/original_telegraf-7.png)
 
  
 
