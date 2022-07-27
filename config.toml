@@ -1,7 +1,7 @@
 ##########################################
 # 站点配置
 
-baseURL = "https://borber.cn"
+baseURL = "https://borber.vercel.app"
 title = "BORBER"
 languageCode = "zh-CN"
 hasCJKLanguage = true
