@@ -1,7 +1,7 @@
 ##########################################
 # 站点配置
 
-baseURL = "https://borber.vercel.app"
+baseURL = "https://blog.borber.top"
 title = "BORBER"
 languageCode = "zh-CN"
 hasCJKLanguage = true
@@ -104,7 +104,7 @@ uglyURLs = false
     # 头像
     avatar = "/icons/apple-touch-icon.png"
     # 网站（默认值：baseURL）
-    website = "https://borber.vercel.app/"
+    website = "https://blog.borber.top"
     # 推特
     twitter = "BORBER_X"
 
