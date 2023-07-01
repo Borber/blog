@@ -30,7 +30,7 @@ date: 2020-07-28T02:43:13+08:00
 >
 > 头像地址 https://cdn.jsdelivr.net/gh/Borber/PublicPic1/headImg/head.png
 >
-> 博客地址 https://borber.vercel.app/
+> 博客地址 https://blog.borber.top/
 
 
 
