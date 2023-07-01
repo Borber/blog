@@ -649,7 +649,7 @@ giscusLabel = "giscus"
 enableGoogleAnalytics = true
 
 # 跟踪代码的类型
-trackingCodeType = "analytics"
+trackingCodeType = "gtag"
 # 说明：gtag 或 analytics
 
 trackingID = "G-25FBE8WVQQ"
