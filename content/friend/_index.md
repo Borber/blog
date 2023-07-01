@@ -2,6 +2,7 @@
 title: "Friend"
 gitinfo: true
 share: true
+toc: false
 comments: true
 images: ["https://github.com/Borber/PublicPic1/blob/master/ST/2x.jpg"]
 description: "和而不同 美美与共"
