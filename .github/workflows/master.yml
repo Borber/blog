@@ -13,7 +13,7 @@ jobs:
     - name: '开始部署...'
       uses: reuixiy/hugo-deploy@v1
       env:
-        DEPLOY_REPO: Borber/Blog_Compiled
+        DEPLOY_REPO: Borber/blog
         DEPLOY_BRANCH: compiled
         DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
         TZ: Asia/Shanghai
