@@ -3,14 +3,12 @@ title: "Friend"
 gitinfo: true
 share: true
 comments: true
-images: ["https://github.com/Borber/PublicPic1/blob/master/ST/2x.jpg"] 
+images: ["https://github.com/Borber/PublicPic1/blob/master/ST/2x.jpg"]
 description: "和而不同 美美与共"
 date: 2020-07-28T02:43:13+08:00
 ---
 
-<a href="https://novcu.com/" class="ftag" target="_blank">山卜方</a> <a href="https://www.cnblogs.com/borber/" class="ftag" target="_blank">BORBER</a> <a href="https://springzilan.vercel.app/" class="ftag" target="_blank">Spring</a> <a href="https://www.volf.club/" class="ftag" target="_blank">群狼动力</a>  <a href="https://p3terx.com/" class="ftag" target="_blank">p3terx</a>  <a href="https://storeweb.cn/" class="ftag" target="_blank">个站商店</a> <a href="https://blog.frytea.com/" class="ftag" target="_blank">Frytea’s Blog</a> <a href="https://www.huhexian.com/" class="ftag" target="_blank">青山</a>  <a href="https://blog.becomingcelia.com" class="ftag" target="_blank">Celia的博客</a> <a href="https://www.tjupt.org/promotionlink.php?key=9324992ae74c08998590a9ee5ba5c66b" class="ftag" target="_blank">北洋园</a> <a href="https://www.yuanqiao.pw/" class="ftag" target="_blank">知向前端</a> <a href="https://www.hm1006.cn/" class="ftag" target="_blank">hmblog</a> <a href="https://www.chihiro.org.cn/" class="ftag" target="_blank">千与千寻</a> <a href="https://blog.badapple.pro/" class="ftag" target="_blank">东方幻梦</a>  <a href="https://stblog.penclub.club/" class="ftag" target="_blank">黎想</a>  <a href="https://1met.cn/" class="ftag" target="_blank">如初见</a>  <a href="https://blog.catyo.cn/" class="ftag" target="_blank">猫鼬的星球计划</a>  <a href="https://ditou.org/" class="ftag" target="_blank">低头族</a>   <a href="https://www.fllv.cn/" class="ftag" target="_blank">三石</a>  <a href="https://qqzmly.com/" class="ftag" target="_blank">程志辉博客</a> <a href="https://sicxs.cn/" class="ftag" target="_blank">似曾相识.</a> <a href="https://blackcat.top/" class="ftag" target="_blank">黑猫</a> <a href="https://musenxi.com/" class="ftag" target="_blank">霂森西</a>  
-
-
+<a href="https://novcu.com/" class="ftag" target="_blank">山卜方</a> <a href="https://www.cnblogs.com/borber/" class="ftag" target="_blank">BORBER</a> <a href="https://springzilan.vercel.app/" class="ftag" target="_blank">Spring</a> <a href="https://www.volf.club/" class="ftag" target="_blank">群狼动力</a> <a href="https://p3terx.com/" class="ftag" target="_blank">p3terx</a> <a href="https://storeweb.cn/" class="ftag" target="_blank">个站商店</a> <a href="https://blog.frytea.com/" class="ftag" target="_blank">Frytea’s Blog</a> <a href="https://www.huhexian.com/" class="ftag" target="_blank">青山</a> <a href="https://blog.becomingcelia.com" class="ftag" target="_blank">Celia 的博客</a> <a href="https://www.tjupt.org/promotionlink.php?key=9324992ae74c08998590a9ee5ba5c66b" class="ftag" target="_blank">北洋园</a> <a href="https://www.yuanqiao.pw/" class="ftag" target="_blank">知向前端</a> <a href="https://www.hm1006.cn/" class="ftag" target="_blank">hmblog</a> <a href="https://www.chihiro.org.cn/" class="ftag" target="_blank">千与千寻</a> <a href="https://blog.badapple.pro/" class="ftag" target="_blank">东方幻梦</a>  <a href="https://stblog.penclub.club/" class="ftag" target="_blank">黎想</a> <a href="https://1met.cn/" class="ftag" target="_blank">如初见</a> <a href="https://blog.catyo.cn/" class="ftag" target="_blank">猫鼬的星球计划</a> <a href="https://ditou.org/" class="ftag" target="_blank">低头族</a> <a href="https://www.fllv.cn/" class="ftag" target="_blank">三石</a> <a href="https://qqzmly.com/" class="ftag" target="_blank">程志辉博客</a> <a href="https://sicxs.cn/" class="ftag" target="_blank">似曾相识.</a> <a href="https://blackcat.top/" class="ftag" target="_blank">黑猫</a> <a href="https://musenxi.com/" class="ftag" target="_blank">霂森西</a> <a href="https://suiyan.cc/" class="ftag" target="_blank">碎言博客</a>
 
 #### 友链申请:
 
@@ -31,8 +29,6 @@ date: 2020-07-28T02:43:13+08:00
 > 头像地址 https://cdn.jsdelivr.net/gh/Borber/PublicPic1/headImg/head.png
 >
 > 博客地址 https://blog.borber.top/
-
-
 
 <style>
 .ftag {
