@@ -630,10 +630,10 @@ enableGiscus = true
 giscusRepo = "Borber/blog"
 giscusRepoId = "MDEwOlJlcG9zaXRvcnkyODI5ODY0OTM="
 giscusCategory = "General"
-giscusCategoryId = "DIC_kwDOEN4H_c4CXmYR"
+giscusCategoryId = "DIC_kwDOEN4H_c4CXmYS"
 giscusMapping = "pathname"
 giscusReactionsEnabled = true
-giscusEmitMetaData = false
+giscusEmitMetaData = true
 giscusInputPosition = "top"
 giscusTheme = "light_tritanopia"
 giscusThemeDark = "dark_tritanopia"
