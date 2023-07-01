@@ -631,7 +631,7 @@ giscusRepo = "Borber/blog"
 giscusRepoId = "MDEwOlJlcG9zaXRvcnkyODI5ODY0OTM="
 giscusCategory = "文章评论"
 giscusCategoryId = "DIC_kwDOEN4H_c4CXmYS"
-giscusMapping = "pathname"
+giscusMapping = "og:title"
 giscusReactionsEnabled = true
 giscusEmitMetaData = true
 giscusInputPosition = "top"
