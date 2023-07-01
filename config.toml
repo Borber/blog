@@ -629,7 +629,7 @@ enableComments = true
 enableGiscus = true
 giscusRepo = "Borber/blog"
 giscusRepoId = "MDEwOlJlcG9zaXRvcnkyODI5ODY0OTM="
-giscusCategory = "General"
+giscusCategory = "文章评论"
 giscusCategoryId = "DIC_kwDOEN4H_c4CXmYS"
 giscusMapping = "pathname"
 giscusReactionsEnabled = true
