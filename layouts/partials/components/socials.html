@@ -5,7 +5,7 @@
         <a
             href="{{ .url | safeURL }}"
             target="_blank"
-            rel="{{ .ref | external noopener}}"
+            rel="{{ .ref | 'external noopener'}}"
             title="{{ .title }}">
             {{- partial "utils/icon.html" (dict "$" $ "name" .icon "class"
             "social-icon") -}}
