@@ -45,5 +45,5 @@ id = "mastodon"
 url = "https://wxw.moe/@BORBER"
 icon = "mastodon"
 title = "Mastodon"
-ref = "me"
+rel = "me"
 weight = 6
