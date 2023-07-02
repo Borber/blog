@@ -6,36 +6,43 @@
 # For the `icon`, see SVG.toml
 
 [[socials]]
-    id = "rss"
-    url = "/rss.xml"
-    icon = "rss"
-    title = "RSS"
-    weight = 1
+id = "rss"
+url = "/rss.xml"
+icon = "rss"
+title = "RSS"
+weight = 1
 
 [[socials]]
-    id = "email"
-    url = "mailto:borber.drum@gmail.com"
-    icon = "envelope"
-    title = "Email"
-    weight = 2
+id = "email"
+url = "mailto:borber.drum@gmail.com"
+icon = "envelope"
+title = "Email"
+weight = 2
 
 [[socials]]
-    id = "github"
-    url = "https://github.com/borber"
-    icon = "github"
-    title = "GitHub"
-    weight = 3
+id = "github"
+url = "https://github.com/borber"
+icon = "github"
+title = "GitHub"
+weight = 3
 
 [[socials]]
-    id = "twitter"
-    url = "https://twitter.com/BORBER_X"
-    icon = "twitter"
-    title = "Twitter"
-    weight = 4
+id = "twitter"
+url = "https://twitter.com/BORBER_X"
+icon = "twitter"
+title = "Twitter"
+weight = 4
 
 [[socials]]
-    id = "telegram"
-    url = "https://t.me/borber"
-    icon = "telegram"
-    title = "Telegram"
-    weight = 5
+id = "telegram"
+url = "https://t.me/borber"
+icon = "telegram"
+title = "Telegram"
+weight = 5
+
+[[socials]]
+id = "mastodon"
+url = "https://wxw.moe/@BORBER"
+icon = "mastodon"
+title = "Mastodon"
+weight = 6
