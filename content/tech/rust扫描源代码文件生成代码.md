@@ -9,7 +9,7 @@ date: 2023-07-17T10:08:04+08:00
 
 # 背景
 
-[seam](https://github.com/Borber/seam)是我最近投入时间在写的一个项目, 为了让整体结构更加清晰, 每个支持的直播平台都在`core`包中单独建立了源代码文件, 位于 [src/live](https://github.com/Borber/seam/tree/master/seam_core/src/live) 中, 为了更方便的使用这个库, 我想要直接返回所有受支持平台的对象, 形如: `HashMap<String, Box<dyn Live>>`, 但我这次想试试更加优雅的方式, 于是就有了这篇文章
+[seam](https://github.com/Borber/seam)是我最近投入时间在写的一个项目, 为了让整体结构更加清晰, 每个支持的直播平台都在`core`包中单独建立了源代码文件, 位于 [src/live](https://github.com/Borber/seam/tree/master/seam_core/src/live) 中, 为了更方便的使用这个库, 我想要直接返回所有受支持平台的对象, 形如: `HashMap<String, Arc<dyn Live>>`, 但我这次想试试更加优雅的方式, 于是就有了这篇文章
 
 # 代码
 
