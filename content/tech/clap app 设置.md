@@ -7,6 +7,8 @@ tags: ["rust", "clap"]
 date: 2023-08-07T13:30:04+08:00
 ---
 
+[Clap 源码](https://github.com/clap-rs/clap/blob/master/clap_builder/src/builder/app_settings.rs)
+
 ## subcommand_negates_reqs
 
 用于主命令声明了必填项, 子命令不需要时, 添加此设置, 并将必填项定义为 `Option<>` `required = true` 即可实现
