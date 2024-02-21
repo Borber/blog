@@ -236,6 +236,13 @@ pre = "internal"
 post = ""           # post = "user-circle"
 
 [[menu.main]]
+url = "https://www.travellings.cn/go.html"
+name = "开往"
+weight = 7
+pre = "external"
+post = ""
+
+[[menu.main]]
 weight = 7
 identifier = "theme-switcher"
 
