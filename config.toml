@@ -924,7 +924,7 @@ fontFamilyFooter = ""
 fontFamilyBody = "'EB Garamond', 'Noto Serif SC', serif"
 
 # 网络字体链接
-fontsLink = "https://cdn.jsdelivr.net/gh/Borber/blog/static/css/css2.css"
+fontsLink = ""
 # 说明：要想读者一定体验到你设置的字体，最好
 #      采用网络字体。MemE 主题目前仅支持
 #      Google Fonts 的链接，请前往
