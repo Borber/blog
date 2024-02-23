@@ -625,7 +625,7 @@ enableComments = true
 #      的优先级高于此处
 
 # 直接加载评论，不需要手动点击按钮加载
-autoLoadComments = true
+autoLoadComments = false
 
 
 ## Giscus
