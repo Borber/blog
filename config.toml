@@ -236,7 +236,14 @@ pre = "internal"
 post = ""           # post = "user-circle"
 
 [[menu.main]]
+url = "https://www.travellings.cn/go.html"
+name = "开往"
 weight = 7
+pre = "external"
+post = ""
+
+[[menu.main]]
+weight = 8
 identifier = "theme-switcher"
 
 # [[menu.main]]
@@ -617,6 +624,9 @@ enableComments = true
 # 说明：文章的 Front Matter 中的 `comments`
 #      的优先级高于此处
 
+# 直接加载评论，不需要手动点击按钮加载
+autoLoadComments = true
+
 
 ## Giscus
 enableGiscus = true
@@ -909,12 +919,12 @@ fontFamilyTOC = ""
 # 说明文字
 fontFamilyCaption = ""
 # 页脚
-fontFamilyFooter = ""
+fontFamilyFooter = "'Source Code Pro', 'Noto Serif TC', 'Noto Serif SC', monospace"
 # 主体
-fontFamilyBody = "'EB Garamond', 'Noto Serif SC', serif"
+fontFamilyBody = "'Amstelvar', 'Noto Serif TC', 'Noto Serif SC', serif"
 
 # 网络字体链接
-fontsLink = "https://cdn.jsdelivr.net/gh/Borber/blog/static/css/css2.css"
+fontsLink = "https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;700&family=Noto+Serif+SC:wght@400;500;700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Cinzel+Decorative:wght@700&display=swap"
 # 说明：要想读者一定体验到你设置的字体，最好
 #      采用网络字体。MemE 主题目前仅支持
 #      Google Fonts 的链接，请前往
