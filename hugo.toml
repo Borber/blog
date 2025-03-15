@@ -1,0 +1,91 @@
+baseURL = 'https://blog.borber.top/'
+languageCode = 'en-us'
+title = 'Blog'
+theme = 'typo'
+
+# Google analytics code
+googleAnalytics = "G-25FBE8WVQQ"
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+# Meta description
+description = "A Tech Blog"
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = '你好!'
+homeIntroContent = """
+我是一名中国软件工程师, 现工作于深圳, 拥有扎实的计算机科学基础和解决复杂问题的热情.
+我对rust, tauri, 网络开发等一系列课题都很感兴趣.
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+[params.breadcrumbs]
+enabled = true
+showCurrentPage = true
+home = "Home"
+
+# Social icons
+[[params.social]]
+name = "github"
+url = "https://github.com/borber"
+
+[[params.social]]
+name = "telegram"
+url = "https://t.me/call_borber_bot"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+
+[[params.menu]]
+name = "friends"
+url = "/friends"
+
+[[params.menu]]
+name = "library"
+url = "/library"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
+
+# Giscus comments
+[params.giscus]
+enable = true
+repo = "borber/blog"
+repoid = "MDEwOlJlcG9zaXRvcnkyODI5ODY0OTM"
+category = "General"
+categoryid = "DIC_kwDOEN4H_c4CXmYS"
+mapping = "pathname"
+theme = "preferred_color_scheme"
+
+
+[markup.goldmark.renderer]
+unsafe = true
