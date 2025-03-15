@@ -87,7 +87,7 @@ repo = "borber/blog"
 repoid = "MDEwOlJlcG9zaXRvcnkyODI5ODY0OTM"
 category = "General"
 categoryid = "DIC_kwDOEN4H_c4CXmYS"
-mapping = "pathname"
+mapping = "title"
 theme = "preferred_color_scheme"
 
 
