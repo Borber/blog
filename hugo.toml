@@ -22,7 +22,7 @@ hideHeader = false
 homeIntroTitle = '你好!'
 homeIntroContent = """
 我是一名中国软件工程师, 现工作于深圳, 拥有扎实的计算机科学基础和解决复杂问题的热情.
-我对rust, tauri, 网络开发等一系列课题都很感兴趣.
+我对`rust`, 网络开发, 客户端开发等一系列课题都很感兴趣.
 """
 
 # Collection to display on home
@@ -57,6 +57,10 @@ url = "/"
 [[params.menu]]
 name = "posts"
 url = "/posts"
+
+[[params.menu]]
+name = "photo"
+url = "/photo"
 
 
 [[params.menu]]
