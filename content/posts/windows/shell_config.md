@@ -5,7 +5,7 @@ date: 2022-10-23T15:09:04+08:00
 ---
 
 ## 效果展示
-![shell](https://i.pstorage.space/i/PAWxgQPRQ/original_win_shell.png)
+![shell](https://cdn.jsdelivr.net/gh/Borber/PublicPic1@master/blog/20221023/original_win_shell.png)
 
 ## 教程特点
 
