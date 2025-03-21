@@ -49,6 +49,10 @@ url = "https://github.com/borber"
 name = "telegram"
 url = "https://t.me/call_borber_bot"
 
+[[params.social]]
+name = "mastodon"
+url = "https://wxw.moe/deck/@BORBER"
+
 # Main menu pages
 [[params.menu]]
 name = "home"
