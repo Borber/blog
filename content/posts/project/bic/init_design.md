@@ -65,5 +65,5 @@ date: 2025-03-22T17:30:04+08:00
 
 # 附属项目
 - [x] 反向代理加速 github 文件
-- [x] 扫描目录生成文件目录, 生成 map 记录整个项目结构 [dirmap](../dirmap/introduction)
+- [x] 扫描目录生成文件目录, 生成 map 记录整个项目结构 [dirmap](/posts/project/dirmap/introduction/)
 - [ ] 通过任务, 生成 bash 脚本
