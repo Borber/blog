@@ -1,6 +1,6 @@
 ---
 title: "突破 Jsdelivr 50M 上限"
-description: "白嫖党是可怖的"
+summary: "白嫖党是可怖的"
 date: 2020-08-10T22:03:04+08:00
 ---
 

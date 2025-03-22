@@ -1,6 +1,6 @@
 ---
 title: "rust cross build mipsel-unknown-linux-musl"
-description: "同事的好用方案"
+summary: "同事的好用方案"
 date: 2025-03-21T19:09:27+08:00
 ---
 

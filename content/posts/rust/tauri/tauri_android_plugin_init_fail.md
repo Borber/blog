@@ -1,6 +1,6 @@
 ---
 title: "Tauri Android 插件初始化失败"
-description: "神奇的问题, 第一次遇到..."
+summary: "神奇的问题, 第一次遇到..."
 date: 2025-03-21T18:50:01+08:00
 ---
 简而言之, 如果排查到 `tauri` 在:

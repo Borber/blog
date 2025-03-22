@@ -1,6 +1,6 @@
 ---
 title: "刷新 Jsdelivr 缓存"
-description: "没有工具 我们就创造工具"
+summary: "没有工具 我们就创造工具"
 date: 2020-08-04T00:25:04+08:00
 ---
 

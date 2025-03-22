@@ -1,6 +1,6 @@
 ---
 title: "Windows的终端环境配置(nushell)"
-description: "nushell + fnm + starship"
+summary: "nushell + fnm + starship"
 date: 2022-10-23T15:09:04+08:00
 ---
 
