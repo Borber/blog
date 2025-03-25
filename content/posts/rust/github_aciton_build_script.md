@@ -6,6 +6,8 @@ date: 2025-03-25T18:54:32+08:00
 
 如果编译产物在其他目录, 则需要修改编译命令和上传工件的路径
 
+`workflow_dispatch` 是在 Github Action 中选择对应的工作流进行手动触发执行
+
 ```yml
 name: Release
 
