@@ -13,6 +13,7 @@ on:
     workflow_dispatch:
 
 env:
+    # 修改为你的项目名称
     PACKAGE_NAME: example
     CARGO_TERM_COLOR: always
 
