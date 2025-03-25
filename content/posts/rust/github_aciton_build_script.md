@@ -60,3 +60,5 @@ jobs:
                   name: ${{ env.PACKAGE_NAME }}-${{ matrix.target }}
                   path: deploy/${{ env.PACKAGE_NAME }}-${{ matrix.target }}
 ```
+
+今天新的证书服务器 github action 编译, 第一次就直接通过了, 实属不易
