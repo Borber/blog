@@ -34,7 +34,7 @@ paginationSize = 100
 listSummaries = true
 listDateFormat = '2 Jan 2006'
 
-footerContent = "**© 2020-2025 𝘽𝙤𝙧𝙗𝙚𝙧**"
+footerContent = "All content licensed under CC BY-SA 4.0 license unless otherwise stated. Copyright © 2025 𝘽𝙤𝙧𝙗𝙚𝙧"
 
 # Breadcrumbs
 [params.breadcrumbs]
