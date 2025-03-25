@@ -9,3 +9,5 @@ date: 2025-03-25T16:24:02+08:00
 ```typescript
 Deno.serve((req: Request) => fetch(new Request(req.url.replace('https://example.com', 'http://127.0.0.1:8080'), req)));
 ```
+
+今天在和厂商对接时有用到
