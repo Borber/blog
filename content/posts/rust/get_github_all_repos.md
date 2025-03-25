@@ -7,11 +7,23 @@ date: 2025-03-24T23:04:13+08:00
 
 ```rust
 pub async fn get_user_all_repos(token: &str) -> Result<Vec<String>> {
-    let (mut repos, next) = get_user_repos(token, 1).await?;
-    for page in 2..=next {
-        let (mut page_repos, _) = get_user_repos(token, page).await?;
-        repos.append(&mut page_repos);
+    let (mut repos, last_page) = get_user_repos(token, 1).await?;
+
+    if last_page > 1 {
+        // 并发获取剩余页面的仓库
+        let futures = (2..=last_page).map(|page| {
+            let token = token.to_string();
+            async move { get_user_repos(&token, page).await.map(|(repos, _)| repos) }
+        });
+
+        // 等待所有请求完成并处理结果
+        let page_results = futures::future::join_all(futures).await;
+        for page_repos in page_results.into_iter().flatten() {
+            repos.extend(page_repos);
+        }
     }
+
+    println!("Total repos: {:?}", repos);
     Ok(repos)
 }
 
@@ -25,33 +37,29 @@ async fn get_user_repos(token: &str, page: u32) -> Result<(Vec<String>, u32)> {
         .header("User-Agent", "bic")
         .send()
         .await
-        .inspect_err(|e| eprintln!("Error: {}", e))?;
+        .context("Failed to send request")?;
 
-    let last = match page {
-        1 => {
-            let headers = resp.headers();
-
-            match headers.get("link") {
-                Some(link) => {
-                    let link_str = link.to_str().unwrap_or("page=0>");
-                    let right = link_str.rsplit_once("page=").unwrap().1;
-                    let left = right.split(">").next().unwrap_or("0");
-                    left.parse::<u32>().unwrap_or(0)
-                }
-                None => 0,
-            }
-        }
-        _ => 0,
+    // 只在第一页时解析总页数
+    let last_page = if page == 1 {
+        resp.headers()
+            .get("link")
+            .and_then(|link| link.to_str().ok())
+            .and_then(|link_str| link_str.rsplit_once("page="))
+            .and_then(|(_, right)| right.split('>').next())
+            .and_then(|num| num.parse::<u32>().ok())
+            .unwrap_or(0)
+    } else {
+        0
     };
 
     let repos = resp
         .json::<Vec<Repository>>()
         .await
-        .inspect_err(|e| eprintln!("Error: {}", e))?
+        .context("Failed to parse repositories")?
         .into_iter()
         .map(|repo| repo.full_name)
         .collect();
 
-    Ok((repos, last))
+    Ok((repos, last_page))
 }
 ```
