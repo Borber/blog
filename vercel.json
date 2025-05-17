@@ -11,7 +11,7 @@
             ]
         },
         {
-            "source": "/(.*).(ttf|otf|woff2)",
+            "source": "/(.*).(ttf|otf|woff2|woff)",
             "headers": [
                 {
                     "key": "Cache-Control",
