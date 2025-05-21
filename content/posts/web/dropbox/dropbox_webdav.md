@@ -11,6 +11,8 @@ date: 2025-05-20T15:28:38+08:00
 
 注册 [koofr.net](https://koofr.net) 账号, 然后在左侧菜单中点击连接, 选择 DropBox 授权登录.
 
+在kroof连接了 dropbox 之后要等它数据同步完成, 然后就可以使用 WebDAV 了.
+
 ![1](https://cdn.jsdelivr.net/gh/Borber/PublicPic1@master/blog/20250520/1.png#small "koofr 连接 DropBox")
 
 # WebDAV
