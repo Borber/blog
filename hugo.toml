@@ -84,6 +84,7 @@ url = "/about"
 # Syntax highlight on code blocks
 [markup]
 [markup.highlight]
+noClasses = false
 style = 'algol'
 
 # Giscus comments
